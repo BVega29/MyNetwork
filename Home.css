@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(0deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),
+    linear-gradient(157.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),
+    linear-gradient(112.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),
+    linear-gradient(90deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),
+    linear-gradient(90deg, rgb(173, 92, 95),rgb(110, 20, 174)); background-blend-mode:overlay,overlay,overlay,overlay,normal; 
+}
+
+/* Navigation */
+.navbar {
+    background-image: linear-gradient(90deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),
+    linear-gradient(67.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),
+    linear-gradient(112.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),
+    linear-gradient(45deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),
+    linear-gradient(90deg, rgb(95, 3, 74),rgb(35, 65, 96)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+    /*background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);*/
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+/* Header */
+.container {
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%); 
+}
+
+.display-2 {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+b {
+    color: white;
+}
+
+/* Desktop devices (>= 992px) */
+@media screen and (min-width: 992px) {
+    .container {
+    width: 100%;
+    }
+}
+
+/* Desktop devices (<= 115px) */
+@media screen and (min-width: 115px) {
+    .display-2 {
+        font-size: 60px;
+    }
+
+    .lead {
+        font-size: 1px;
+    }
+}
+
+/* Mobile devices (<= 480) */ 
+@media screen and (max-width: 480px) {
+    #container {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .custom-header {
+        font-size: 18%;
+    }
+
+    .custom-header b {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #container {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .custom-header {
+        font-size: 18%;
+    }
+
+    .custom-header b {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    #container {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .custom-header {
+        font-size: 18%;
+    }
+
+    .custom-header b {
+        font-size: 6px;
+    }
+}
+
+.p2 {
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

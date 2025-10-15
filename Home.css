@@ -67,14 +67,6 @@ b {
         padding: 5px;
         border-radius: 50%;
     }
-
-    .custom-header {
-        font-size: 18%;
-    }
-
-    .custom-header b {
-        font-size: 8px;
-    }
 }
 
 @media screen and (max-width: 390px) {
@@ -85,14 +77,6 @@ b {
         padding: 5px;
         border-radius: 50%;
     }
-
-    .custom-header {
-        font-size: 18%;
-    }
-
-    .custom-header b {
-        font-size: 6px;
-    }
 }
 
 @media screen and (max-width: 379px) {
@@ -102,15 +86,6 @@ b {
         height: 100px;
         padding: 5px;
         border-radius: 50%;
-    }
-
-    .custom-header {
-        font-size: 18%;
-    }
-
-    .custom-header b {
-        font-size: 6px;
-    }
 }
 
 .p2 {
